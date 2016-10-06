@@ -359,3 +359,15 @@ color: #cb2028;
 		cursor: pointer;
 		} 
 	.big-link { display:block; margin-top: 100px; text-align: center; font-size: 70px; color: #06f; }
+.post{margin:8px 5px;padding:5px 15px}
+  .post h1,.post h2{font-family: ";Open Sans";, sans-serif, Segoe UI,Arial,Tahoma;font-size:190%;line-height:1.2em;margin:8px 0 3px;padding:0;font-weight:300}
+.post img{transition:all 400ms ease-in-out;-webkit-transition:all 400ms ease-in-out;-moz-transition:all 400ms ease-in-out;-o-transition:all 400ms ease-in-out;-ms-transition:all 400ms ease-in-out; }
+.post-body{border-top:none;padding-top:0px;background:none;line-height:1.8em;margin:0;padding-bottom:10px;text-align:left;color:#777;}
+.post-footer{display:none}
+.postmeta{;padding:5px 0 10px}
+.post img:hover{opacity:.7;filter:alpha(opacity=70);-moz-opacity:.7;-khtml-opacity:.7}
+.thumbnail{width:180px;height:130px;overflow:hidden;border:1px solid #ccc;margin:0 10px 5px 0;float:left;padding:0px}
+
+@media screen and (max-width:460px){
+.thumbnail{width:140px;height:90px}
+}
